@@ -8,7 +8,8 @@ export function filterEven(...elements) {
   
 export function generateRandomList(n = 7) {
     let a = [];
-    for (let i = 0; i < n; i++) {
+    for (let i = 0; i < n; i++) 
+    {
       let x = Math.floor(Math.random() * 100 + 1);
       a.push(x);
     }
